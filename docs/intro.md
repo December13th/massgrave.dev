@@ -37,7 +37,7 @@ irm https://massgrave.dev/get | iex
 #### Método 2 - Tradicional (Windows Vista y versiones posteriores)
 
 <details>
-  <summary>Haz clic aquí para ve</summary>
+  <summary>Haz clic aquí para ver</summary>
   
 1.   Descarga el archivo usando uno de los enlaces de abajo:  
 `https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip`  
@@ -76,7 +76,7 @@ or
 
 ------------------------------------------------------------------------
 
-## MAS Latest Release
+## Última versión de **MAS**
 
 Last Release - v3.4 (3-June-2025)  
 [GitHub](https://github.com/massgravel/Microsoft-Activation-Scripts) / [Azure DevOps](https://dev.azure.com/massgrave/_git/Microsoft-Activation-Scripts) / [Self-hosted Git](https://git.activated.win/massgrave/Microsoft-Activation-Scripts)
