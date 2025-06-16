@@ -101,15 +101,15 @@ Last Release - v3.4 (3-June-2025)
 
 ------------------------------------------------------------------------
 
-## Activations Summary
+## Resumen de activaciones
 
-| Activation Type | Supported Product      | Activation Period                    | Is Internet Needed? |
+| Tipo de activación | Producto compatible | Período de activación                |Se requiere Internet?|
 |:----------------|:-----------------------|:-------------------------------------|:--------------------|
-| HWID            | Windows 10-11          | Permanent                            | Yes                 |
-| Ohook           | Office                 | Permanent                            | No                  |
-| TSforge         | Windows / ESU / Office | Permanent                            | Yes, needed on build 19041 and later |
-| KMS38           | Windows 10-11-Server   | Till the Year 2038                   | No                  |
-| Online KMS      | Windows / Office       | 180 Days. Lifetime With Renewal Task | Yes                 |
+| HWID            | Windows 10-11          | Permanente                            | Si                  |
+| Ohook           | Office                 | Permanente                            | No                  |
+| TSforge         | Windows / ESU / Office | Permanente                            | Si, Necesario en la versión 19041 y posteriores |
+| KMS38           | Windows 10-11-Server   | Hasta el año 2038                   | No                  |
+| Online KMS      | Windows / Office       | 180 días, pero se puede renovar para que dure toda la vida | Si                 |
 
 Para más detalles, utiliza la información correspondiente de activación en los Docs y:  [comparison chart](chart.md).  
 Para activar productos no soportados como Office en Mac, consulta [here](unsupported_products_activation.md).
