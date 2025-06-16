@@ -6,71 +6,71 @@ sidebar_label: Intro
 
 # Microsoft Activation Scripts (MAS)
 
-Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.
+Activador de Windows y Office de código abierto que incluye métodos de activación HWID (Identificación de hardware), Ohook, TSforge, KMS38 y KMS en línea, junto con soluciones avanzadas para resolución de problemas.
 
 ---
 
-### How to Activate Windows / Office?
+### Cómo activar Windows / Office?
 
-#### Method 1 - PowerShell (Windows 8 and later) ❤️
+#### Método 1 - PowerShell (Windows 8 y versiones posteriores) ❤️
 
 :::info
 
-1.   **Open PowerShell**  
-	To do that, press the Windows key + X, then select PowerShell or Terminal.
+1.   **Abre PowerShell**  
+	Para hacer eso, presiona la tecla de Windows + X, luego selecciona PowerShell o Terminal.
 
-2.   **Copy and paste the code below, then press enter.**  
+2.   **Copia y pega el código que está abajo, luego presiona Enter.**  
 ```
 irm https://get.activated.win | iex
 ```
-Alternatively, you can use the following (this will be deprecated in the future):  
+Alternativamente, puedes usar lo siguiente (esto será descontinuado en el futuro):
 ```
 irm https://massgrave.dev/get | iex
 ```
 
-3.   You will see the activation options. Choose the activation options highlighted in green. 
+3.   Verás las opciones de activación. Elige las opciones de activación que están resaltadas en verde. 
 
-4.   That's all
+4.   Eso es todo.
 
 :::
 
-#### Method 2 - Traditional (Windows Vista and later)
+#### Método 2 - Tradicional (Windows Vista y versiones posteriores)
 
 <details>
   <summary>Click here to view</summary>
   
-1.   Download the file using one of the links below:  
+1.   Descarga el archivo usando uno de los enlaces de abajo:  
 `https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip`  
 or  
 `https://git.activated.win/massgrave/Microsoft-Activation-Scripts/archive/master.zip`
-2.   Right-click on the downloaded zip file and extract it.
-3.   In the extracted folder, find the folder named `All-In-One-Version`.
-4.   Run the file named `MAS_AIO.cmd`.
-5.   You will see the activation options. Follow the on-screen instructions.
-6.   That's all.
+2.   Haz clic derecho sobre el archivo zip descargado y extráelo.
+3.   En la carpeta extraída, busca la carpeta llamada `All-In-One-Version`.
+4.   Ejecuta el archivo llamado `MAS_AIO.cmd`.
+5.   Verás las opciones de activación. Sigue las instrucciones que aparecen en pantalla.
+6.   Eso es todo.
 
 </details>
 
 ---
 
-- To activate additional products such as **Office for macOS, Visual Studio, RDS CALs, and Windows XP**, check [here](unsupported_products_activation.md).
-- To run the scripts in unattended mode, check [here](command_line_switches.md).
+- Para activar productos adicionales como Office para macOS, Visual Studio, RDS CALs y Windows XP**, Revvisa esto [here](unsupported_products_activation.md).
+- Para ejecutar los scripts en unattended mode, Revisa esto [here](command_line_switches.md).
 
 ---
 
-### Not working ❓
+### No funciona ❓
 
-- If you are **unable to launch MAS** using the PowerShell method, please refer to **Method 2** above.
-- If MAS launches but displays errors, check for troubleshooting steps highlighted in blue and follow them.
-- If issues persist, feel free to reach out to us [here](troubleshoot.md).
+- Si no puedes **iniciar MAS** usando el método de PowerShell, por favor consulta el **Método 2** arriba.
+- Si **MAS** se inicia pero muestra errores, revisa los pasos para solución de problemas que están resaltados en azul y síguelos.
+- Si los problemas persisten, no dudes en contactarnos. [here](troubleshoot.md).
 
 ---
 
-:::note
+:::Nota
 
-- The IRM command in PowerShell downloads a script from a specified URL, and the IEX command executes it.
-- Always double-check the URL before executing the command and verify the source is trustworthy when manually downloading files.
-- Be cautious, as some spread malware disguised as MAS by changing the URL in the IRM command.
+- El comando IRM en PowerShell descarga un script desde una URL especificada, y el comando IEX lo ejecuta.
+- Siempre verifica dos veces la URL antes de ejecutar el comando y confirma que la fuente sea confiable cuando descargues archivos manualmente.
+- Ten precaución, ya que algunos distribuyen malware disfrazado como *MAS* cambiando la URL en el comando IRM.
 
 :::
 
@@ -83,21 +83,21 @@ Last Release - v3.4 (3-June-2025)
 
 ------------------------------------------------------------------------
 
-## Features
+# Características
 
--   **HWID (Digital License)** Method to Permanently Activate Windows
--   **Ohook** Method to Permanently Activate Office
--   **TSforge** Method to Permanently Activate Windows/ESU/Office
--   **KMS38** Method to Activate Windows Till the Year 2038
--   **Online KMS** Method to Activate Windows/Office For 180 Days (Lifetime With Renewal Task)
--   Advanced Activation Troubleshooting
--   $OEM$ Folders For Preactivation
--   Change Windows Edition
--   Change Office Edition
--   Check Windows/Office Activation Status
--   Available in All In One and Separate Files Versions
--   Fully Open Source and Based on Batch Scripts
--   Fewer Antivirus Detections
+- Método **HWID (Licencia Digital)** para activar Windows de forma permanente
+- Método **Ohook** para activar Office de forma permanente
+- Método **TSforge** para activar Windows/ESU/Office de forma permanente
+- Método **KMS38** para activar Windows hasta el año 2038
+- Método **KMS en línea** para activar Windows/Office por 180 días (vigencia ilimitada con tarea de renovación)
+- Solución avanzada de problemas de activación
+- Carpetas $OEM$ para preactivación
+- Cambiar edición de Windows
+- Cambiar edición de Office
+- Verificar estado de activación de Windows/Office
+- Disponible en versiones todo en uno y archivos separados
+- Totalmente de código abierto y basado en scripts batch
+- Menos detecciones por antivirus
 
 ------------------------------------------------------------------------
 
@@ -111,12 +111,12 @@ Last Release - v3.4 (3-June-2025)
 | KMS38           | Windows 10-11-Server   | Till the Year 2038                   | No                  |
 | Online KMS      | Windows / Office       | 180 Days. Lifetime With Renewal Task | Yes                 |
 
-For more details, use the respective activation details in Docs and [comparison chart](chart.md).  
-To activate unsupported products such as **Office on Mac**, check [here](unsupported_products_activation.md).
+Para más detalles, utiliza la información correspondiente de activación en los Docs y:  [comparison chart](chart.md).  
+Para activar productos no soportados como Office en Mac, consulta [here](unsupported_products_activation.md).
 
 ------------------------------------------------------------------------
 
-## Screenshots
+## Capturas de pantalla
 
 ![](/img/MAS_AIO.png)
 
@@ -138,4 +138,4 @@ To activate unsupported products such as **Office on Mac**, check [here](unsuppo
 
 ------------------------------------------------------------------------
 
-Made with Love ❤️
+Hecho con amor ❤️
