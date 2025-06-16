@@ -37,7 +37,7 @@ irm https://massgrave.dev/get | iex
 #### Método 2 - Tradicional (Windows Vista y versiones posteriores)
 
 <details>
-  <summary>Click here to view</summary>
+  <summary>Haz clic aquí para ve</summary>
   
 1.   Descarga el archivo usando uno de los enlaces de abajo:  
 `https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip`  
